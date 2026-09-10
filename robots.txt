@@ -3,3 +3,6 @@
 
 User-agent: *
 Disallow: ./assets/images/secret.jpeg
+Disallow: ./backup/note.txt
+Disallow: ./backup/webapp.db
+
