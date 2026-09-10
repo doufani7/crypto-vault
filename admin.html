@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel - Crypto Vault</title>
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <div id="content"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="js/auth.js"></script>
+    <!-- Our giant obfuscation file -->
+    <script src="hugeLib.js"></script>
+    <script>
+        const token = localStorage.getItem('token');
+        if (!token) {
+            document.getElementById('content').innerHTML = '<p>No token found. Please <a href="login.html">login</a>.</p>';
+        } else {
+            const payload = verifyToken(token);
+            if (payload && payload.role === 'admin') {
+                const flag = window._CTF || 'Flag not found';
+                document.getElementById('content').innerHTML = '<p>Congratulations! Flag: <b>' + flag + '</b></p>';
+            } else {
+                document.getElementById('content').innerHTML = '<p>You are not admin. Access denied.</p>';
+            }
+        }
+    </script>
+</body>
+</html>

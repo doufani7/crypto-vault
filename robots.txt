@@ -1,0 +1,5 @@
+# Hello Hacker! 
+# Looking for a flag? You are in the right place, but it won't be that easy.
+
+User-agent: *
+Disallow: ./assets/images/secret.jpeg

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Crypto Vault</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label>Username:</label>
+        <input type="text" id="username" required><br>
+        <label>Password:</label>
+        <input type="password" id="password" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <p id="error" style="color:red;"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const result = login(username, password);
+            if (result.success) {
+                localStorage.setItem('token', result.token);
+                window.location.href = 'admin.html';
+            } else {
+                document.getElementById('error').textContent = result.message;
+            }
+        });
+    </script>
+</body>
+</html>
