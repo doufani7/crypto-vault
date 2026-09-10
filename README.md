@@ -2,9 +2,8 @@
 
 > *Can you crack the vault and retrieve the flag?*
 
-[![CTF](https://img.shields.io/badge/CTF-DOF%20CTF-blueviolet?style=for-the-badge)](https://dofctfflags.rf.gd/)
 [![Challenge](https://img.shields.io/badge/Challenge-Crypto%20Vault-ff69b4?style=for-the-badge)](https://doufani78-lgtm.github.io/crypto-vault/)
-[![Category](https://img.shields.io/badge/Category-Web%20Security-yellow?style=for-the-badge)](#)
+[![Category](https://img.shields.io/badge/Category-Web-And-Crypto%20Security-yellow?style=for-the-badge)](#)
 [![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge)](#)
 
 ---
