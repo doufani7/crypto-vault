@@ -80,7 +80,7 @@ Once you have the flag, verify it at:
 
 ## 🏆 Credits
 
-- **Challenge Author:** [doufani78-lgtm](https://github.com/doufani78-lgtm)
+- **Challenge Author:** [doufani7](https://github.com/doufani7)
 
 ---
 
