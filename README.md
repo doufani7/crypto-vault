@@ -81,7 +81,6 @@ Once you have the flag, verify it at:
 ## 🏆 Credits
 
 - **Challenge Author:** [doufani78-lgtm](https://github.com/doufani78-lgtm)
-- **CTF Platform:** DOF CTF
 
 ---
 
