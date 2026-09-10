@@ -31,7 +31,7 @@ Retrieve the hidden flag and submit it for verification.
 
 ## 🔗 Challenge Link
 
-👉 **[https://doufani78-lgtm.github.io/crypto-vault/](https://doufani78-lgtm.github.io/crypto-vault/)**
+👉 **[https://doufani7.github.io/crypto-vault/](https://doufani7.github.io/crypto-vault/)**
 
 ---
 
